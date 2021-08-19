@@ -9,7 +9,7 @@ const opts = {
       platformName: "Android",
       platformVersion: "11",
       deviceName: "Android Emulator",
-      app: "/Users/anirbansantra/asantra1-sourcetree/jenkins-appium-tests/ApiDemos-debug.apk",
+      app: "$WORKSPACE/ApiDemos-debug.apk",
       appPackage: "io.appium.android.apis",
       appActivity: ".view.TextFields",
       automationName: "UiAutomator2"
