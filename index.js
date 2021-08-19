@@ -1,4 +1,5 @@
 const wdio = require("webdriverio");
+var assert = require('assert');
 
 // javascript
 const opts = {
