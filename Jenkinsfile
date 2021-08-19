@@ -6,7 +6,6 @@ pipeline {
             steps {
                 echo 'Testing..'
                 sh '''
-                    appium --version
                     node --version
                     node index.js
                 '''
