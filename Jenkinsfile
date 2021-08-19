@@ -7,7 +7,7 @@ pipeline {
                 echo 'installing..'
                 sh '''
                    npm install webdriverio
-                   echo "${env.WORKSPACE}"
+                   echo "$WORKSPACE"
                 '''
             }
         }
