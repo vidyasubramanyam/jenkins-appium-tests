@@ -8,6 +8,7 @@ pipeline {
                 sh '''
                    npm install webdriverio
                    echo "$WORKSPACE"
+                   sed -i 's/APKPATH/$WORKSPACE/g' index.js
                 '''
             }
         }
